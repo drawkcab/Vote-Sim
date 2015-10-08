@@ -249,10 +249,11 @@ def poll_post #Loading screen for voting and then posts results
     end
   end
 
-  puts "Democrats"
+  printf "%-20s %-20s %s\n", "Name", "Party", "Votes"
   poll_results(@dem)
-  puts "Republican"
   poll_results(@rep)
+  puts ""
+  puts ""
   puts "The winner is #{name} with #{winner} votes!"
   puts "Congratulations #{name}!"
 
@@ -263,7 +264,7 @@ def poll_results(tab) #Used to properly space out poll results
     x = sel.name
     y = sel.party
     z = sel.votes
-    printf "%-20s %s\n", x, y, z
+    printf "%-20s %-20s %s\n", x, y, z
   end
 end
 

@@ -11,15 +11,35 @@ require './politician.rb'
   @votes = [0,0] #0 = Dem 1 = Rep
 
 
-  @voters << Voter.new("Matt","Socialist")
-  @voters << Voter.new("Tim","Socialist")
+  @voters << Voter.new("Matt","Neutral")
+  @voters << Voter.new("Tim","Liberal")
   @voters << Voter.new("Jim","Socialist")
   @voters << Voter.new("Wayne","Socialist")
+  @voters << Voter.new("Joe","Tea Party")
+  @voters << Voter.new("Juan","Tea Party")
+  @voters << Voter.new("Henry","Neutral")
+  @voters << Voter.new("Lopez","Socialist")
+  @voters << Voter.new("David","Socialist")
+  @voters << Voter.new("Chris","Liberal")
+  @voters << Voter.new("Jenny","Socialist")
+  @voters << Voter.new("Lisa","Socialist")
+  @voters << Voter.new("Anne","Tea Party")
+  @voters << Voter.new("Elizabeth","Tea Party")
+  @voters << Voter.new("Phyllis","Neutral")
+  @voters << Voter.new("Holly","Conservative")
+  @voters << Voter.new("Jen","Neutral")
+  @voters << Voter.new("Juan","Liberal")
+  @voters << Voter.new("James","Socialist")
+  @voters << Voter.new("Christine","Socialist")
+  @voters << Voter.new("Mark","Tea Party")
+  @voters << Voter.new("Nate","Tea Party")
+  @voters << Voter.new("Natalie","Neutral")
+  @voters << Voter.new("Conner","Conservative")
 
-  @politician << Politician.new("Matthew Roche", "Democrat")
-  @politician << Politician.new("Rando", "Democrat")
-  @politician << Politician.new("Mark Roche", "Republican")
-  @politician << Politician.new("Mark", "Republican")
+  @politician << Politician.new("Hillary Clinton", "Democrat")
+  @politician << Politician.new("Elizabeth Paine", "Democrat")
+  @politician << Politician.new("Marco Rubio", "Republican")
+  @politician << Politician.new("Jeb Bush", "Republican")
 
 
   #main_menu
